@@ -176,6 +176,65 @@ header {
   margin-bottom: 10px;
   color: #464646;
 }
+
+/* features section start from here */
+.features {
+  margin: 100px auto;
+  /* background: #f1f1f1; */
+}
+.features-details-icon {
+  width: 700px;
+  margin: 0 auto;
+}
+.fas.fa-star,
+.fas.fa-pen-nib {
+  font-size: 80px;
+  margin-bottom: 25px;
+}
+.Specialty,
+.How-will-this-course-work {
+  display: inline-block;
+  cursor: pointer;
+}
+.Specialty h5,
+.How-will-this-course-work h5 {
+  font-size: 22px;
+  font-weight: bold;
+}
+.Specialty h5,
+.fas.fa-star {
+  background: -webkit-linear-gradient(#ff3d68, #f75c7d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.Specialty::after {
+  display: block;
+  content: "";
+  background-image: linear-gradient(to right, #ff3d68, #f75c7d);
+  width: 200px;
+  height: 5px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+/* features section start from here */
+
+/* features card  */
+.features-cards {
+  margin-top: 100px;
+}
+.features-card {
+  padding: 15px 4px;
+  border-radius: 20px;
+}
+.features-title {
+  font-size: 16px;
+}
+.features-img {
+  width: 72px;
+  height: 72px;
+  margin: 0 auto;
+}
+/* features card  */
 /* main desing start from here */
 
 /* responsive for mobile devices */
@@ -184,13 +243,13 @@ header {
   header {
     background-image: linear-gradient(165deg, #024c52, #003638);
     position: relative;
-    margin-bottom: 900px;
+    margin-bottom: 980px;
   }
   /* header section */
   /* next-batch section start from here */
   .next-batch {
     position: absolute;
-    top: 138%;
+    top: 145%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 54px 30px;
@@ -223,5 +282,18 @@ header {
     margin-right: -10px;
   }
   /* next-batch section end from here */
+  /* features details icon */
+  .features-details-icon {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .How-will-this-course-work {
+    display: none;
+  }
+  .Specialty {
+    display: block;
+    text-align: center;
+  }
+  /* features details icon */
 }
 /* responsive for mobile devices */
