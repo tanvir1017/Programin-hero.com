@@ -19,7 +19,13 @@ header {
   height: auto;
 }
 .navigation-menu nav {
-  background-image: linear-gradient(165deg, #024c52, #003638);
+  background-image: linear-gradient(2deg, #024c52, #003638);
+}
+.navbar-toggler-icon {
+  background-image: none !important;
+}
+.navbar-toggler:focus {
+  box-shadow: none !important;
 }
 .navigation-menu nav ul li a img {
   width: 40px;
@@ -30,13 +36,16 @@ header {
 .nav-icon {
   margin: 0 !important;
 }
+.badge-icon {
+  padding: 6px;
+  background: #ff3d68;
+}
 .navigation-menu nav ul li a i {
   font-size: 20px;
 }
 
 /* header text and img */
 .header-text-img {
-  margin: 80px auto;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -156,8 +165,12 @@ header {
   border-radius: 20px;
   margin: 20px 0px 25px;
 }
+.card-title:hover {
+  cursor: not-allowed;
+}
 .card-text span {
   padding: 6px;
+  margin: 5px;
   border-radius: 20px;
 }
 .course-price {
@@ -234,7 +247,81 @@ header {
   margin: 0 auto;
 }
 /* features card  */
+
+/* whait you have find in this course */
+.what-you-have {
+  margin: 100px auto;
+}
+.card-title-2 {
+  background-image: linear-gradient(165deg, #024c52, #003638);
+  padding: 15px 20px;
+  border-radius: 20px;
+  margin-bottom: -10px;
+}
+.card-title-2:hover {
+  background-image: linear-gradient(165deg, #003638, #024c52);
+  cursor: pointer;
+}
+
+.right-side-column {
+  height: 515px !important;
+  width: 600px !important;
+  overflow: auto;
+}
+/* whait you have find in this course */
+
+/* your projects  */
+.your-projects {
+  margin: 100 auto;
+}
+.project-card {
+  border-radius: 20px;
+}
+/* your projects  */
+
+/* about jhankar mahbub */
+.about-jhankar-mahbub {
+  background: #d1d1d161;
+  margin: 100px auto 0px;
+  padding: 15vh;
+}
+/* about jhankar mahbub */
+
+/* question-about-our-course  */
+.accordions {
+  padding: 10vh;
+  margin: 0px auto 100px;
+  background-image: linear-gradient(165deg, #024c52, #003638);
+}
+.question {
+  margin-top: 100px;
+}
+.accordion-item {
+  margin-bottom: 10px;
+  box-shadow: 0px 4px 12px -3px rgb(0 0 0 / 23%);
+  background-color: #024c52;
+  color: white;
+}
+.my-accordion:not(.collapsed) {
+  background-color: #016972;
+  color: white;
+}
+.my-accordion {
+  background-color: #016972 !important;
+  color: white !important;
+}
+.my-accordion:focus {
+  box-shadow: none !important;
+}
+/* question-about-our-course  */
 /* main desing start from here */
+
+/* footer section start form here */
+footer {
+  padding: 10vh;
+  margin-top: 100px;
+}
+/* footer section start form here */
 
 /* responsive for mobile devices */
 @media screen and (max-width: 688px) {
@@ -243,6 +330,9 @@ header {
     background-image: linear-gradient(165deg, #024c52, #003638);
     position: relative;
     margin-bottom: 1020px;
+  }
+  .nav-item {
+    margin-top: 15px !important;
   }
   /* header section */
   /* next-batch section start from here */
@@ -260,7 +350,6 @@ header {
   .card-body-icon {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
   }
   .card-text {
     margin-top: 22px;

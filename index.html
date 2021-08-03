@@ -37,10 +37,14 @@
       href="elemnts/icons/programmin-hero-icon1.png"
       type="image/x-icon"
     />
+    <link rel="stylesheet" href="resource/offcanvas.css">
     <link rel="stylesheet" href="style.css" />
+
     <!---------------------------------------
         css & favicon link here
     ----------------------------------------->
+      
+
   </head>
   <body>
     <!---------------------------------------
@@ -49,39 +53,33 @@
     <header>
       <!-- navbar section start form her -->
       <section class="navigation-menu" id="navigation-menu">
-        <nav class="navbar navbar-expand-lg fixed-top">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" aria-label="Main navigation">
           <div class="container">
             <a class="navbar-brand programming-logo text-white" href="#">
-                <img class="" src="/elemnts/icons/programmin-hero-icon1.png" alt="">
-                <strong>Programming</strong> hero
-            </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
+              <img class="" src="/elemnts/icons/programmin-hero-icon1.png" alt="">
+              <strong>Programming</strong> hero
+          </a>
+            <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+              <span class="menu-icon navbar-toggler-icon"><img class="img-fluid" src="/elemnts/icons/menu.png" alt=""></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        
+            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
               <ul class="navbar-nav ms-auto mb-2 align-middle mb-lg-0">
                 <li class="nav-item">
                   <a class="nav-link fw-normal text-white text-center active" aria-current="page" href="#"
                     >My classes</a
                   >
                 </li>
-                <li class="nav-item nav-icon">
+                <li class="nav-item nav-icon position-relative">
                   <a class="nav-link text-white ms-3 text-center active" aria-current="page" href="#"
-                    ><i class="fas fa-shopping-cart"></i></a
-                  >
+                    ><i class="fas fa-shopping-cart"></i>
+                    <span class="position-absolute translate-middle badge-icon rounded-circle"></span>
+                    </a>
                 </li>
-                <li class="nav-item nav-icon ">
-                  <a class="nav-link text-white ms-3 text-center active" aria-current="page" href="#"
-                    ><i class="fas fa-bell"></i></a
-                  >
+                <li class="nav-item nav-icon position-relative">
+                  <a class="nav-link text-white ms-3 text-center active" aria-current="page" href="#"><i class="fas fa-bell"></i>
+                    <span class="position-absolute translate-middle badge-icon rounded-circle"></span>
+                    </a>
                 </li>
                 <li class="nav-item mx-auto">
                   <a class=" active" aria-current="page" href="#"
@@ -253,12 +251,12 @@
         <div class="row">
           <div class="col-12 col-md-5 col-lg-5">
             <div class="row row-cols-1 g-4">
-              <div class="col px-5">
+              <div class="col px-2">
 
-                  <div class="card border-0 shadow-lg p-3 batch-card">
+                  <div class="card border-0 shadow p-3 batch-card">
                     <img src="/elemnts/images/batch-4.png" class="img-fluid card-img-top" alt="reload">
                     <div class="card-body">
-                      <h5 class="card-title text-white fw-bold ls-1 text-center">Registerd Now</h5>
+                      <h5 class="card-title text-white fw-bold ls-1 text-center" title="Registation closed. See you in the next batch">Registerd Now</h5>
                         <div class="d-flex card-body-icon justify-content-evenly">
                           <div class="card-text">
                             <span class="shadow"><img src="/elemnts/icons/list-3.png" alt=""> <small>660 Videos</small>
@@ -558,6 +556,361 @@
           </section>
       </section>
       <!-- features section start form here -->
+
+      <!-- what you have in this course -->
+      <section class="what-you-have container" id="what-you-have">
+        <h2 class="section-title fw-bold text-center">কোর্সে যা কিছু আছে ;</h2>
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-6 mb-5">
+                  <div class="card border-0 shadow p-3 batch-card">
+                    <img src="/elemnts/images/batch-4.png" class="img-fluid card-img-top" alt="reload">
+                    <div class="card-body">
+                       <h5 class="card-title-2 text-white fw-bold ls-1 text-center" title="Registation closed. See you in the next batch">Continue course <i class="ms-auto fas fa-arrow-right"></i></h5>
+                  </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6 right-side-column">
+            <p class="module-list">Module-1 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-2 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-3 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-4 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-5 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-6 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-7 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-8 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-9 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-10 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-11 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-12 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-13 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-14 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-15 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-16 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-17 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-18 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-19 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-20 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-21 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-22 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-23 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-24 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-25 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-26 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-27 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-28 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-29 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-30 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-31 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-32 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-33 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-34 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-35 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-36 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-37 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-38 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-39 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-40 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-41 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-42 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-43 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-44 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-45 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-46 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-47 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-48 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-49 learn and explore something big. webdevelopment</p>
+            <p class="module-list">Module-50 learn and explore something big. webdevelopment</p>
+          </div>
+      </section>
+      <!-- what you have in this course -->
+
+      <!-- Project which you done -->
+      <section class="your-projects container" id="your-projects">
+        <h1 class="section-title fw-bold text-center mb-3">মোট ১১ টা প্রোজেক্ট তুমি করবে</h1>
+        <p class="fw-bold text-center mb-5" style="font-size: 15px;">প্রোগ্রামিং কনসেপ্ট, স্কিল শেখানোর পাশাপাশি আমরা আরও বাড়তি ৫ টা প্রোজেক্ট করে দেখিয়ে দিবো তুমি এই ১১ টা
+          <br>
+          প্রোজেক্ট যেনও নিজে করতে পারো। কেউ এই ১১টা প্রজেক্ট বুঝে বুঝে করতে পারলে তাকে আর কেউ ঠেকাতে পারবে না।</p>
+        <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
+          <div class="col">
+            <div class="card shadow p-4 border-0 project-card h-100">
+              <img src="/elemnts/images/preoject-1.png" class="card-img-top" alt="Assignments">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow p-4 border-0 project-card h-100">
+              <img class="img-fluid"  src="/elemnts/images/preoject-2.png" class="card-img-top" alt="Assignments">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow p-4 border-0 project-card h-100">
+              <img class="img-fluid" src="/elemnts/images/preoject-3.png" class="card-img-top" alt="Assignments">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow p-4 border-0 project-card h-100">
+              <img class="img-fluid" src="/elemnts/images/preoject-4.png" class="card-img-top" alt="Assignments">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow p-4 border-0 project-card h-100">
+              <img class="img-fluid" src="/elemnts/images/preoject-5.png" class="card-img-top" alt="Assignments">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow p-4 border-0 project-card h-100">
+              <img class="img-fluid" src="/elemnts/images/preoject-6.png" class="card-img-top" alt="Assignments">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow p-4 border-0 project-card h-100">
+              <img class="img-fluid" src="/elemnts/images/preoject-7.png" class="card-img-top" alt="Assignments">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow p-4 border-0 project-card h-100">
+              <img class="img-fluid" src="/elemnts/images/preoject-8.png" class="card-img-top" alt="Assignments">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Project which you done -->
+
+      <!-- jhanker mahbub introduce -->
+        <section class="about-jhankar-mahbub" id="about-jhanker-mahbub">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-5 col-sm-12 col-lg-5 d-flex justify-content-end align-items-center">
+                <img class="img-fluid align-items-center" style="height: 250px; width: 250px;" src="/elemnts/images/jhankar-mahbub.png" alt="">
+              </div>
+              <div class="col-md-1 col-sm-12 col-lg-1"></div>
+              <div class="col-md-6 col-sm-12 col-lg-6">
+                <h2 class="jh-title fw-bold mb-3">ঝংকার মাহবুব</h2>
+                <p class="fs-bold" style="font-size: 18px;">ঝংকার মাহবুব এক দশক ধরে প্রোগ্রমিং ও ওয়েব ডেভেলপমেন্টের সাথে জড়িত। বুয়েটের পড়ালেখা শেষ করার পর কম্পিউটার সায়েন্সে মাস্টার্স করেন আমেরিকার নর্থ ডেকোটা স্টেট ইউনিভার্সিটি। তারপর সিনিয়র ওয়েব ডেভেলপার হিসেবে দীর্ঘদিন ধরে কাজ করেছেন যুক্তরাষ্ট্রের নিলসেন কোম্পানিতে। বর্তমানে স্ত্রী কারিনা ইসলামসহ বসবাস করছেন যুক্তরাষ্ট্রের ক্যালিফোর্নিয়ার অঙ্গরাজ্যের সিলিকনভ্যালি এরিয়াতে। প্রোগ্রামিংকে সহজ, মজার ও গল্পের ছলে উপস্থাপন করা নিয়ে জনপ্রিয় তিনটা বই লিখে ফেলেছেন তিনি। বইগুলো হচ্ছে: হাবলুদের জন্য প্রোগ্রামিং, প্রোগ্রামিংয়ের বলদ টু বস, আর প্রোগ্রামিংয়ের চৌদ্দগোষ্ঠী। এছাড়াও দিক-নির্দেশনামূলক বই লিখেছেন: রিচার্জ your ডাউন ব্যাটারি ও প্যারাময় লাইফের প্যারাসিটামল। আর অবসর সময়ে, Jhankar Mahbub নামক ইউটিউব চ্যানেলে প্রোগ্রামিং ও স্টুডেন্টদেরজন্য দিক-নির্দেশনামূলক ভিডিও বানান।</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      <!-- jhanker mahbub introduce -->
+
+      <!-- question about our course -->
+      <section class="accordions">
+        <div class="about-our-course" id="about-our-course">
+          <div class="container">
+            <h1 class="section-title fw-bold text-center mb-5 text-white">কোর্স সম্পর্কিত সাধারণ জিজ্ঞাসা</h1>
+            <div class="row question">
+              <div class="col-md-6 col-sm-12 col-lg-6">
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class=" accordion-button my-accordion" type="button" data-bs-toggle="collapse" data-bs-target="#one-1" aria-expanded="true" aria-controls="collapseOne">
+                        <span class="fw-bold">
+                          এই কোর্স কাদের জন্য
+                        </span>
+                      </button>
+                    </h2>
+                    <div id="one-1" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#one-1">
+                      <div class="accordion-body">
+                        <strong>যারা ওয়েব ডেভেলপার হতে চায়। যারা একদম শূন্য থেকে শুরু করে শেষ পর্যন্ত ওয়েব ডেভেলপমেন্ট শিখে তারপর ওয়েব ডেভেলপার হিসেবে কোন সফটওয়্যার কোম্পানিতে চাকরি করতে চায়, তাদের জন্য। যারা প্রোগ্রামিং বা ওয়েব ডেভেলপমেন্ট সম্পর্কে তেমন কিছুই জানে না, তাদের জন্য। এমনকি যারা চার বছর CSE পড়েও কিভাবে কি করবে দিশা করতে পারতেছে না, গুছিয়ে তেমন কিছু শিখেনি, তারাও এই কোর্স থেকে কমপ্লিট ওয়েব ডেভেলপমেন্ট শিখে চাকরিতে এপ্লাই করতে পারবে। 😀</strong>
+                      </div>
+                    </div>
+                  </div><div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class=" accordion-button my-accordion" type="button" data-bs-toggle="collapse" data-bs-target="#one-2" aria-expanded="false" aria-controls="collapse-2">
+                        <span class="fw-bold">
+                          এই কোর্স শুরু করার আগে আমার পূর্বে কোন অভিজ্ঞতা থাকা দরকার?
+                        </span>
+                      </button>
+                    </h2>
+                    <div id="one-2" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#one-2">
+                      <div class="accordion-body">
+                        <strong>আমরা যেহেতু একদম শূন্য থেকে শেখাচ্ছি। তাই তোমাকে আগে থেকে তেমন কিছু জানা লাগবে না। তবে তোমার হাতে যদি সময় থাকে তাহলে এই তিনটা কাজ করে ফেলতে পারো। ১. ভিডিও দেখে দেখে জিনিসগুলো মাথায় ঢুকানোর জন্য একটুখানি ব্রেনের খালি জায়গা রাখতে হবে। ২. কোর্স এ জয়েন করলেই অটো ওয়েব ডেভেলপার হয়ে যাবে না। হার্ডওয়ার্ক করার, লেগে থাকার মেন্টালিটি থাকতে হবে। ৩. কোথাও আটকে গেলে হেল্প চাওয়ার মেন্টালিটি এবং লেগে থাকার ইচ্ছা রাখতে হবে।</strong>
+                      </div>
+                    </div>
+                  </div><div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class=" accordion-button my-accordion" type="button" data-bs-toggle="collapse" data-bs-target="#one-3" aria-expanded="false" aria-controls="collapseOne">
+                        <spna class="fw-bold">
+                          কোর্সের মধ্যে কি কি আছে ?
+                        </spna>
+                      </button>
+                    </h2>
+                    <div id="one-3" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#one-3">
+                      <div class="accordion-body">
+                        <strong>সেটা কোর্স কারিকুলাম দেখলেই বুঝতে পারবে। তবে ছোট করে বললে, বলা যায়: বর্তমান সময়ে একজন সিরিয়াস ওয়েব ডেভেলপার হওয়ার জন্য যা যা লাগে, তার সবই আছে এই কোর্সে। যেমন ধরো HTML, CSS থেকে শুরু করে bootstrap, JavaScript, Git, ES6, REST API, server, JSON তো আছেই। তার সাথে সাথে আছে বর্তমান সময়ে সবচেয়ে বেশি চাকরি যে ফ্রেমওয়ার্ক সেই React, advanced React দিয়ে কমপ্লিট ওয়েবসাইট বানানোর সিস্টেম আছে। বাড়তি হিসেবে আছে node, database (mongodb), debug, problem solving, interview questions সহ আরো অনেক জিনিস আছে। আর পুরা কোর্সে তোমাকে ১১টা ওয়েবসাইট করে দেখানো হবে। আরো ১১টা ওয়েবসাইট থাকবে তোমার হোমওয়ার্ক হিসেবে। এই পুরা জিনিস কোন রকমে শেষ করতে পারলে, একজন উন্নতমানের জুনিয়র ওয়েব ডেভেলপার না হয়ে উপায় থাকবে না। 😀</strong>
+                      </div>
+                    </div>
+                  </div><div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class=" accordion-button my-accordion" type="button" data-bs-toggle="collapse" data-bs-target="#one-33" aria-expanded="true" aria-controls="collapse-33">
+                        <span class="fw-bold">
+                          কোর্সের ভিডিও কি ভাবে পাবো ?
+                        </span>
+                      </button>
+                    </h2>
+                    <div id="one-33" class="accordion-collapse collapse  " aria-labelledby="headingOne" data-bs-parent="#one-33">
+                      <div class="accordion-body">
+                        <strong>কোর্সের ভিডিও গুলো প্রি-রেকর্ড থাকবে। তুমি একাউন্ট খুলে এই কোর্সে এনরোল করলে। ভিডিওগুলো কোর্স শুরু হওয়ার পরে থেকে প্রতিদিন একটা করে মডিউল দেয়া হবে। প্রত্যেকটা মডিউলে সাধরনত ১০ থেকে ১২ টা ভিডিও থাকে। এই ভিডিওগুলো যেদিন রিলিজ দেয়া হয়ে সেই দিনের মধ্যে তোমাকে দেখে ফিনিশ করতে হবে। তাই সেই হিসেবে কোর্সের জন্য প্রতিদিন ডেডিকেটেড সময় রাখতে হবে। এবং সেই সময়ের মধ্যে তুমি চাইলে শুয়ে-বসে, দাঁড়িয়ে-হেলিয়ে, পা দুলিয়ে, কোমর নাচিয়ে, কিংবা খাটের তলায় লুকিয়েও ভিডিও দেখতে পারবে।</strong>
+                      </div>
+                    </div>
+                  </div><div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class=" accordion-button my-accordion" type="button" data-bs-toggle="collapse" data-bs-target="#one-4" aria-expanded="true" aria-controls="collapse-4">
+                        <span class="fw-bold">
+                          কোর্স কমপ্লিট করতে কতদিন সময় লাগবে ?
+                        </span>
+                      </button>
+                    </h2>
+                    <div id="one-4" class="accordion-collapse collapse  " aria-labelledby="headingOne" data-bs-parent="#one-4">
+                      <div class="accordion-body">
+                        <strong>তুমি যদি প্রতিদিন ১ থেকে দেড় ঘন্টা ধরে ভিডিও দেখো, তার সাথে সাথে এক্সট্রা ৪ থেকে ৬ ঘন্টা প্রাকটিস করো, তাহলে তোমার তিন মাসের মতো সময় লাগবে। তবে মাঝে মধ্যে হোমওয়ার্ক আর টেক এওয়ে প্রজেক্ট এর জন্য বাড়তি সময় বরাদ্ধ রাখতে হবে। হার্ডওয়ার্ক করার মেন্টালিটি নিয়ে আসতে হবে। ফাঁকিবাজি বা শর্টকাট করার কোন উপায় নাই।</strong>
+                      </div>
+                    </div>
+                  </div><div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class=" accordion-button my-accordion" type="button" data-bs-toggle="collapse" data-bs-target="#one-5" aria-expanded="true" aria-controls="collapse-5">
+                        <span class="fw-bold">
+                          কোর্স করতে শিক্ষাগত যোগ্যতা কেমন থাকা লাগবে ?
+                        </span>
+                      </button>
+                    </h2>
+                    <div id="one-5" class="accordion-collapse collapse  " aria-labelledby="headingOne" data-bs-parent="#one-5">
+                      <div class="accordion-body">
+                        <strong>আমরা কোর্সটি এমনভাবে সাজিয়েছি যেখানে একাডেমিক ব্যাকগ্রাউন্ড ম্যাটার করে না। তুমি যেকোনো একাডেমিক ব্যাকগ্রাউন্ড থেকে এই কোর্সটি করতে পারবে। চাইলে ভার্সিটির স্টুডেন্ট, কলেজের স্টুডেন্ট, চাকরিজীবি, বেকার, প্রেমিক, পলাতক প্রেমিক, এমনকি ফোন ধরে না এমন প্রেমিকা সবাই যাতে শিখতে পারে সেজন্য একদম শূন্য থেকে শুরু করা হয়েছে।</strong>
+                      </div>
+                    </div>
+                  </div><div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class=" accordion-button my-accordion" type="button" data-bs-toggle="collapse" data-bs-target="#one-6" aria-expanded="true" aria-controls="collapse-6">
+                        <span class="fw-bold">
+                          আমার কি কি জিনিস লাগবে ?
+                        </span>
+                      </button>
+                    </h2>
+                    <div id="one-6" class="accordion-collapse collapse  " aria-labelledby="headingOne" data-bs-parent="#one-6">
+                      <div class="accordion-body">
+                        <strong>প্রথমত লাগবে ডেডিকেটেড সময়। প্রতিদিন মাস্ট ৬-৮ ঘন্টা। সম্ভব হলে ৮-১০ঘন্টা( সময় না দিতে পারলে। হার্ডওয়ার্ক করার ইচ্ছা না থাকলে কোর্সে এনরোল করে কোন লাভ হবে না) দ্বিতীয়ত লাগবে একটা ল্যাপটপ বা একটা কম্পিউটার (যেখানে node, Visual Studio Code টাইপের সফটওয়্যার ইনস্টল করা যায়) আর তৃতীয়ত লাগবে মিনিমাম ২-১০ এমবিপিএস এর ইন্টারনেট। ব্রডব্যান্ড হলেই ভালো যাতে কোর্সের ভিডিও ভালোভাবে দেখা যায়। প্রফেশনাল ওয়েব ডেভেলপার হতে হলে মিনিমাম ৩ মাস সিরিয়াস হার্ডওয়ার্ক এর কথা মাথায় রেখে নামতে হবে।</strong>
+                      </div>
+                    </div>
+                  </div><div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class=" accordion-button my-accordion" type="button" data-bs-toggle="collapse" data-bs-target="#one-7" aria-expanded="true" aria-controls="collapse-7">
+                        <span class="fw-bold">
+                          কোর্স টা ফ্রি না কেন ?
+                        </span>
+                      </button>
+                    </h2>
+                    <div id="one-7" class="accordion-collapse collapse  " aria-labelledby="headingOne" data-bs-parent="#one-7">
+                      <div class="accordion-body">
+                        <strong>এই কোর্সটা জাস্ট ভিডিও দেখার কোর্স না। কারণ এই কোর্সের পিছনে সব মিলিয়ে ৩০ জন প্রফেশনাল ডেভেলপার করছে। তোমার ১১টা এসাইনমেন্ট দেখবে। এসাইনমেন্ট এর মার্কস প্লাস ফিডব্যাক দিবে। আরো সাতজন ওয়েব ডেভেলপার থাকবে যারা তোমার যেকোন প্রশ্নের উত্তর ২৪ ঘন্টার মধ্যে দেয়ার জন্য রেডি থাকবে। তোমার কোড এ সমস্যা হলে সেটা স্ক্রীনশেয়ার করে সলভ করে নেয়ার জন্য ডেডিকেটেড ডেভেলপার থাকবে। এছাড়াও কোর্সের ওয়েবসাইট বানানোর জন্য ডেভেলপার, ভিডিও এডিটর, কোর্স মডারেটর, লাইভ কন্সেপচুয়াল সেশন, জব প্লেসমেন্ট সাপোর্ট, সব মিলিয়ে যতজন লোক কাজ করে তাদের সংসার তো আর ফ্রি ফ্রি চলতে পারবে না। সেজন্য এই কোর্সে নূন্যতম একটা ফি আমাদের রাখতেই হচ্ছে।</strong>
+                      </div>
+                    </div>
+                  </div><div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class=" accordion-button my-accordion" type="button" data-bs-toggle="collapse" data-bs-target="#one-8" aria-expanded="true" aria-controls="collapse-8">
+                        <span class="fw-bold">
+                          কোর্স ফি ম্যানেজ করতে পারছি, কিন্তু সেটা দিতে সমস্যা হচ্ছে এখন কি করব ?
+                        </span>
+                      </button>
+                    </h2>
+                    <div id="one-8" class="accordion-collapse collapse  " aria-labelledby="headingOne" data-bs-parent="#one-8">
+                      <div class="accordion-body">
+                        <strong>কোন টেনশন নাই। এখনই তোমার সমস্যা সম্পর্কে বিস্তারিত web@programming-hero.com এই ইমেইলে পাঠিয়ে দাও। অথবা আমাদের অফিসিয়াল নাম্বারে কল করে জানাও। আমরা ঘুমিয়ে না থাকলে সঙ্গে সঙ্গেই রিপ্লাই দিবো। সর্বোচ্চ ২৪ ঘন্টার মধ্যে উত্তর না পেলে, এই ইমেইল ওয়ালার খবর আছে।</strong>
+                      </div>
+                    </div>
+                  </div><div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class=" accordion-button my-accordion" type="button" data-bs-toggle="collapse" data-bs-target="#one-9" aria-expanded="true" aria-controls="collapse-9">
+                        <span class="fw-bold">
+                          কোর্স শেষ করার পর কি চাকুরি পাবো ?
+                        </span>
+                      </button>
+                    </h2>
+                    <div id="one-9" class="accordion-collapse collapse  " aria-labelledby="headingOne" data-bs-parent="#one-9">
+                      <div class="accordion-body">
+                        <strong>একটা জিনিস ভালো করে খেয়াল করো। আমরা কিন্তু চাকরির গ্যারান্টি দিচ্ছি না। আমরা বলতেছি। তুমি মেইন কোর্স অনটাইমে ভালোভাবে ফিনিশ করলে তুমি SCIC তে যাবে। জব, ইন্টারভিউ রিলেটেড স্পেশাল ট্রেনিং পাবে। সেখানে হার্ডওয়ার্ক করলে আমাদের চারজন জব প্লেসমেন্ট টিম মেম্বার বিভিন্ন কোম্পানিতে তোমার সিভি/রেজুমি ফরওয়ার্ড করবে। সেই কোম্পানি তোমাকে ইন্টারভিউতে ডাকবে কি ডাকবে না। সেটা তাদের সিদ্ধান্ত। আবার ইন্টারভিউতে ডাকলে তোমাকে চাকরি দিবে কি দিবে না সেটা তাদের সিদ্ধান্ত। আমাদের দিক থেকে আমরা এইটুক কমিট করতেছি-- তুমি লেগে থাকলে আমরা তোমাকে হেল্প করবো। গাইড করবো। আমাদের কানেকশনগুলোতে তোমার সিভি ফরওয়ার্ড কর</strong>
+                      </div>
+                    </div>
+                  </div><div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class=" accordion-button my-accordion" type="button" data-bs-toggle="collapse" data-bs-target="#one-10" aria-expanded="true" aria-controls="collapse10">
+                        <span class="fw-bold">
+                          কোর্স ফলো করতে গিয়ে কোথাও আটকে গেলে কি করব ?
+                        </span>
+                      </button>
+                    </h2>
+                    <div id="one-10" class="accordion-collapse collapse  " aria-labelledby="headingOne" data-bs-parent="#one-10">
+                      <div class="accordion-body">
+                        <strong>আমরা কোর্সের জন্য একটা সিক্রেট ফেইসবুক গ্রূপ তৈরি করেছি। যেখানে আমি থাকবো, আমাদের সাতজন প্রফেশনাল ওয়েব ডেভেলপার থাকবেন, তোমাকে সাপোর্ট করার জন্য। আমাদের টার্গেট হচ্ছে--২৪ ঘন্টার মধ্যে তোমার সব প্রশ্নের উত্তর দেয়া। বেশিরভাগ সময় ইনস্ট্যান্ট উত্তর দেয়া হয়। গড়ে ৬-৮ ঘন্টার মধ্যে সব উত্তর পেয়ে যাবে। তাছাড়া লিখে কোডের ভিতরের প্রবলেম সলভ করতে না পারলে (শুক্রবার বাদে) প্রতিদিন দুই-তিনটা মিট সেশন থাকবে। যেখানে তুমি স্ক্রিনশেয়ার করে তোমার প্রবলেম সলভ করতে পারবে। আর কি লাগে? 😉</strong>
+                      </div>
+                    </div>
+                  </div><div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class=" accordion-button my-accordion" type="button" data-bs-toggle="collapse" data-bs-target="#one-11" aria-expanded="true" aria-controls="collapse-11">
+                        <span class="fw-bold">
+                          কোর্স কনটেন্ট কি ফাইনাল ?
+                        </span>
+                      </button>
+                    </h2>
+                    <div id="one-11" class="accordion-collapse collapse  " aria-labelledby="headingOne" data-bs-parent="#one-11">
+                      <div class="accordion-body">
+                        <strong>স্টুডেন্টদের ফিডব্যাক এবং যারা চাকরি পাচ্ছে তাদের ফিডব্যাক অনুসারে আমরা নিত্য নতুন মডিউল যোগ করি।</strong>
+                      </div>
+                    </div>
+                  </div><div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class=" accordion-button my-accordion" type="button" data-bs-toggle="collapse" data-bs-target="#one-12" aria-expanded="true" aria-controls="collapse-12">
+                        <span class="fw-bold">
+                          আমি ফুলটাইম চাকরি করি আমি কি এই কোর্স করতে পারবো ?
+                        </span>
+                      </button>
+                    </h2>
+                    <div id="one-12" class="accordion-collapse collapse  " aria-labelledby="headingOne" data-bs-parent="#one-12">
+                      <div class="accordion-body">
+                        <strong>যদি আমাদের কোর্সের ফ্লো সাথে ফিনিশ করতে চাও এবং SCIC তে যেতে চাও-- তাহলে তোমার তেল বের হয়ে যাবে। কারণ ডেইলি ডেইলি ৬ ঘন্টা সময় না দিলে বা ছুটির দিনে বাড়তি সময় না দিলে আমাদের কোর্সের কনটেন্ট, এসাইনমেন্ট, প্রাকটিস প্রবলেম ফিনিশ করতে পারবে না। কোর্স এ আমরা যত ফ্যাসিলিটি দিচ্ছি তা তুমি নিতে পারবে না। তাই আমি বলবো এক্সট্রিম হার্ডওয়ার্ক করে লেগে থাকতে পারবে সেই মেন্টালিটি নিয়ে তুমি আসতে পারো।</strong>
+                      </div>
+                    </div>
+                  </div><div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class=" accordion-button my-accordion" type="button" data-bs-toggle="collapse" data-bs-target="#one-13" aria-expanded="true" aria-controls="collapse-13">
+                        <span class="fw-bold">
+                          এই কোর্স এ WordPress বা Freelancing সম্পর্কিত কিছু আছে ?
+                        </span>
+                      </button>
+                    </h2>
+                    <div id="one-13" class="accordion-collapse collapse  " aria-labelledby="headingOne" data-bs-parent="#one-13">
+                      <div class="accordion-body">
+                        <strong>এই কোর্সে WordPress বা freelancing রিলেটেড সরাসরি কিছু নাই। কারণ, এই কোর্সের উদ্দেশ্য হচ্ছে সফটওয়্যার কোম্পানিতে ওয়েব ডেভেলপার বলতে যেটা বুঝানো হয় সেটা হতে চায় তাদের জন্য। এছাড়া এডভান্সড লেভেলে ওয়ার্ডপ্রেস কাস্টমাইজ করতে গেলে HTML, CSS, bootstrap, JavaScript, এমনকি React ও জানতে হয়। সেগুলা এই কোর্স থেকে শিখতে পারবে। তবে freelancing বা WordPress কে এই কোর্স হাইলাইট করা হয়নি।</strong>
+                      </div>
+                    </div>
+                  </div><div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class=" accordion-button my-accordion" type="button" data-bs-toggle="collapse" data-bs-target="#one-14" aria-expanded="true" aria-controls="collapse-14">
+                        <span class="fw-bold">
+                          এইগুলো ছাড়াও আমার আরো প্রশ্ন আছে সেগুলা কোথায় করব ? 
+                        </span>
+                      </button>
+                    </h2>
+                    <div id="one-14" class="accordion-collapse collapse  " aria-labelledby="headingOne" data-bs-parent="#one-14">
+                      <div class="accordion-body">
+                        <strong>কোন টেনশন নাই। তোমার যত প্রশ্ন আছে সেগুলা মনের মাধুরী মিশিয়ে web@programming-hero.com এ পাঠিয়ে দাও। আমরা যত দ্রুত সম্ভব রিপ্লাই দিয়ে দিবো।</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-1 col-sm-12 col-lg-1"></div>
+              <div class="col-md-5 col-sm-12 col-lg-5 d-flex align-items-center">
+                <img src="/elemnts/images/thinker.a1f176d5.png" class="img-fluid" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- question about our course -->
+
+      <!-- success section start from here -->
+      <!-- success section start from here -->
+
     </main>
     <!---------------------------------------
         main end from here
@@ -581,5 +934,7 @@
     <!---------------------------------------
         Bootstrap js bundule link here
     ----------------------------------------->
+      <!-- offcanvas js -->
+    <script src="/resource/offcanvas.js"></script>
   </body>
 </html>
